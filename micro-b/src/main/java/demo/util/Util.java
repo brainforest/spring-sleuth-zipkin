@@ -1,17 +1,12 @@
 package demo.util;
 
-import brave.Tracer;
 import brave.Tracing;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class Util {
-
-    @Autowired
-    Tracer tracer;
 
     public Util() {
     }

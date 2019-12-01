@@ -1,6 +1,5 @@
 package demo.service;
 
-import brave.Tracer;
 import demo.tracing.TraceUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.sleuth.annotation.NewSpan;
@@ -12,9 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 import java.util.logging.Logger;
 
-/**
- * Huabing Zhao
- */
 @RestController
 public class BillingServiceController {
 

@@ -1,14 +1,10 @@
 package demo.service;
 
-
 import org.springframework.cloud.sleuth.annotation.NewSpan;
 import org.springframework.stereotype.Component;
 
 import java.util.logging.Logger;
 
-/**
- * Huabing Zhao
- */
 @Component
 public class DBAccess {
     private static final Logger LOG = Logger.getLogger(DBAccess.class.getName());

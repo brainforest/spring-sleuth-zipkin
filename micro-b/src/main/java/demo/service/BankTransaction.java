@@ -1,21 +1,9 @@
 package demo.service;
-
-
-
-
-
-import brave.Tracer;
-import brave.Tracing;
 import demo.tracing.TraceUtil;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.sleuth.annotation.NewSpan;
 import org.springframework.stereotype.Component;
-
 import java.util.logging.Logger;
 
-/**
- * Huabing Zhao
- */
 @Component
 public class BankTransaction {
 

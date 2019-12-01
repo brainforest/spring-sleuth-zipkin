@@ -1,11 +1,7 @@
 package demo.tracing;
 
-import brave.Tracer;
 import brave.Tracing;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-//@Component
 public class TraceUtil {
 
     static TraceUtil traceUtil;

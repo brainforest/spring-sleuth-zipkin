@@ -8,9 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.logging.Logger;
 
-/**
- * Huabing Zhao
- */
 @RestController
 public class InventoryServiceController {
 

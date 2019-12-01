@@ -13,9 +13,6 @@ import util.Util;
 
 import java.util.logging.Logger;
 
-/**
- * Huabing Zhao
- */
 @RestController
 public class RequestController {
 

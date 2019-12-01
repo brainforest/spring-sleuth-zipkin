@@ -33,6 +33,4 @@ public class MicroserviceB implements CommandLineRunner {
         String body =restTemplate.getForEntity("http://localhost:8080/checkout", String.class).getBody();
         LOG.info(body);
     }
-
-
 }

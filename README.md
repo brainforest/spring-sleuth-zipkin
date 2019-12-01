@@ -2,7 +2,9 @@
 
 Example of How to use Spring Sleuth with Zipkin and custom span sender
 
-java '
+Below code shows how custom Sender configured to write traces into console and zipkin
+
+```java
 @Configuration
 public class TraceSender {
 
@@ -63,5 +65,5 @@ public class TraceSender {
 
     }
 }
-'
+```
 

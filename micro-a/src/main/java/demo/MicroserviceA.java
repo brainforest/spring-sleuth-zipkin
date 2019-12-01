@@ -22,8 +22,6 @@ public class MicroserviceA implements CommandLineRunner {
     @Autowired
     private RestTemplate restTemplate;
 
-
-
     public static void main(String[] args) {
         SpringApplication.run(MicroserviceA.class, args);
     }
@@ -32,9 +30,6 @@ public class MicroserviceA implements CommandLineRunner {
     public RestTemplate restTemplate(RestTemplateBuilder restTemplateBuilder) {
         return restTemplateBuilder.build();
     }
-
-
-
 
     @Override
     public void run(String... args) {

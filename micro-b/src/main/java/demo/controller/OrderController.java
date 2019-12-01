@@ -18,9 +18,9 @@ import java.util.logging.Logger;
  * Huabing Zhao
  */
 @RestController
-public class EShopController {
+public class OrderController {
 
-    private static final Logger LOG = Logger.getLogger(EShopController.class.getName());
+    private static final Logger LOG = Logger.getLogger(OrderController.class.getName());
 
     @Autowired
     private RestTemplate restTemplate;

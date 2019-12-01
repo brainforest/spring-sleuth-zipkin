@@ -1,4 +1,4 @@
-package demo;
+package demo.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.sleuth.annotation.NewSpan;
@@ -17,9 +17,9 @@ import java.util.logging.Logger;
  * Huabing Zhao
  */
 @RestController
-public class HelloController {
+public class RequestController {
 
-    private static final Logger LOG = Logger.getLogger(HelloController.class.getName());
+    private static final Logger LOG = Logger.getLogger(RequestController.class.getName());
 
     @Autowired
     private RestTemplate restTemplate;

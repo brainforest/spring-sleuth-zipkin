@@ -42,7 +42,7 @@ public class MicroserviceB implements CommandLineRunner {
     @Override
     public void run(String... args) {
         LOG.info("invoking..");
-        String body =restTemplate.getForEntity("http://localhost:8080/checkout",     String.class).getBody();
+        String body =restTemplate.getForEntity("http://localhost:8080/checkout", String.class).getBody();
         LOG.info(body);
     }
 

@@ -1,4 +1,4 @@
-package demo;
+package demo.tracing;
 
 
 import org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration;

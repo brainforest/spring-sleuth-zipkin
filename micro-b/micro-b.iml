@@ -86,5 +86,10 @@
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-kafka:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-amqp-client:2.10.3" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter2:zipkin-sender-urlconnection:2.11.1" level="project" />
+    <orderEntry type="library" name="Maven: co.elastic.apm:apm-agent-api:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: co.elastic.apm:apm-opentracing:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-api:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-util:0.33.0" level="project" />
+    <orderEntry type="library" name="Maven: io.opentracing:opentracing-noop:0.33.0" level="project" />
   </component>
 </module>

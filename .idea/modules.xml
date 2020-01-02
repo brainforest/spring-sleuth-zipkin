@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/elastic-index/elastic-index.iml" filepath="$PROJECT_DIR$/elastic-index/elastic-index.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-a/micro-a.iml" filepath="$PROJECT_DIR$/micro-a/micro-a.iml" />
       <module fileurl="file://$PROJECT_DIR$/micro-b/micro-b.iml" filepath="$PROJECT_DIR$/micro-b/micro-b.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-sleuth-zipkin.iml" filepath="$PROJECT_DIR$/.idea/spring-sleuth-zipkin.iml" />

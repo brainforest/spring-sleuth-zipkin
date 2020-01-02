@@ -8,7 +8,6 @@
       <list>
         <option value="$PROJECT_DIR$/micro-a/pom.xml" />
         <option value="$PROJECT_DIR$/micro-b/pom.xml" />
-        <option value="$PROJECT_DIR$/elastic-index/pom.xml" />
       </list>
     </option>
   </component>
